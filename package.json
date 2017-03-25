@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "read-package-tree": "^5.1.5",
+    "semver": "^5.3.0"
+  },
+  "name": "node4-module-paths",
+  "version": "0.0.0",
+  "description": "Get all paths of modules targeting node v4 and later in your node_modules folder",
+  "main": "index.js",
+  "repository": "https://github.com/stevemao/node4-module-paths",
+  "author": "Steve Mao <maochenyan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": "cli.js",
+  "devDependencies": {
+    "camelcase": "^4.0.0",
+    "jest": "^19.0.2",
+    "repeating": "^3.0.0"
+  }
+}
